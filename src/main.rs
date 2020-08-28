@@ -81,6 +81,7 @@ fn main() {
     tarefas.add("Terminar esse programa".to_string());
     tarefas.add("Pensar".to_string());
     tarefas.lista[1].feita = 'x';
+    tarefas.add("Alguma outra tarefa".to_string());
 
     match command {
         Command::List => tarefas.listar(),
